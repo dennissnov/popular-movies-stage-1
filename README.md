@@ -1,9 +1,9 @@
-<b>Associate Android Developer Fast Track Nanodegree Program</b>
-Project: Popular Movies, Stage 1
+<b>Associate Android Developer Fast Track Nanodegree Program</b><br>
+Project: Popular Movies, Stage 1<br>
+<br>
+<br>
+Put API Key in API_KEY Variable in .MainActivity <br>
 
-
-Put API Key in API_KEY Variable in .MainActivity
-
-Library Used :
--Retrofit
--Picasso
+Library Used :<br>
+-Retrofit<br>
+-Picasso<br>
