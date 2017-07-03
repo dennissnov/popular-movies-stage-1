@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DENNISSNOV</string>
+    <string name="error"> </string>
+    <string name="sort_popular">Popular</string>
+    <string name="release_date">Release Date :</string>
+    <string name="sort_top_rated">Top Rated</string>
+    <string name="error_internet">"Error! No Internet Connection"</string>
+    <string name="user_rating">"User Rating : "</string>
+
+</resources>
