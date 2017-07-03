@@ -51,10 +51,14 @@ public class MainActivity extends AppCompatActivity {
         mAdapter = new MoviesAdapter(this);
         mRecyclerView.setAdapter(mAdapter);
         mLoadingIndicator = (ProgressBar) findViewById(R.id.pb_loadingIndicator);
+        mLoadingIndicator.setVisibility(View.VISIBLE);
         isInternetConnected();
         if (isInternetConnected() == true) {
-            mLoadingIndicator.setVisibility(View.VISIBLE);
             getMovies();
+        } else {
+            Toast.makeText(MainActivity.this, getResources().getString(R.string.error_internet), Toast.LENGTH_SHORT).show();
+            mLoadingIndicator.setVisibility(View.INVISIBLE);
+
         }
     }
 

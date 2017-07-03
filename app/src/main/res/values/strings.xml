@@ -5,6 +5,7 @@
     <string name="release_date">Release Date :</string>
     <string name="sort_top_rated">Top Rated</string>
     <string name="error_internet">"Error! No Internet Connection"</string>
+    <string name="no_internet">"Error! No Internet Connection"</string>
     <string name="user_rating">"User Rating : "</string>
 
 </resources>
